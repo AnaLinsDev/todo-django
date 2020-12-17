@@ -2,6 +2,8 @@
 
 Projeto do tipo TODO List feito com o tutorial do YouTube ( Link: https://www.youtube.com/watch?v=4RWFvXDUmjo ).
 
+Projeto no Heroku:   https://analinsdev-todolist-django.herokuapp.com/
+
 Tela de Listagem: 
 ![image](https://user-images.githubusercontent.com/60307596/102511857-0d5e6a80-4068-11eb-8cc3-2bd676c13f6d.png)
 Tela de Atualização: 
@@ -16,4 +18,5 @@ Tecnologias :
 - Arquitetura MTV
 - Django
 - SQLite
-- CSS
+- ORM
+- HTML + CSS
