@@ -48,15 +48,17 @@
 
 <div class="center-column">
 
-<h3>Update Task</h3>
+	<h3>Update Task</h3>
+<!--O action="" fará com que entre no arquivo urls, e então no 
+	arquivo de views (updateTask), e nesse momento irá entrar no if
+	e alterará o titulo do objeto -->
+	<form method="POST" action="">
+		{% csrf_token %}
 
-<form method="POST" action="">
-	{% csrf_token %}
-
-	{{form}}
-	<input class='submit' type="submit" name="Update Task">
-	
-	
-</form>
+		{{form}}
+		<input class='submit' type="submit" name="Update Task">
+		
+		
+	</form>
 
 </div>

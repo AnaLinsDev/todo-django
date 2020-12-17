@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     'tasks',
 ]
+# ^ aqui adicionei o nome do app em installed_apps 
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

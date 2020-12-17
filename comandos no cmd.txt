@@ -1,0 +1,20 @@
+Alguns comandos usados durante o desenvolvimento desse projeto:
+
+
+pip install django -> instalação do django
+
+django-admin --version -> conferir a versão do django
+
+django-admin startproject todolist -> inicia o projeto todolist, adicionando seus arquivos
+
+cd todolist -> entra no diretório todolist
+
+python manage.py runserver -> primeira vez rodando o servidor, se for até o link: http://127.0.0.1:8000/, deverá ver uma tela avisando se tudo deu certo
+
+python manage.py startapp tasks -> criará a aplicação tasks, adiconará um novo diretório ao projeto com novos arquivos
+
+python manage.py makemigrations -> responsável por criar as migrations de acordo com a alteração do models 
+
+python manage.py migrate -> responsável por adicionar ou tirar as migrations criadas
+
+

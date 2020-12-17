@@ -21,3 +21,4 @@ urlpatterns = [
     path('', include('tasks.urls'))
 
 ]
+# necessário incluir os urls da aplicação no projeto

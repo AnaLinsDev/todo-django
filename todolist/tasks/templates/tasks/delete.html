@@ -47,13 +47,15 @@
 </style>
 
 <div class="center-column">
-<p>Are you sure you want to delete "{{item}}"?</p>
+	<p>Are you sure you want to delete "{{item}}"?</p>
 
-<a href="{% url 'list' %}" >Cancel</a>
-
-<form method="POST" action="">
-	{% csrf_token %}
-	<input class='submit' type="submit" name="Confirm">
-</form>
+	<a href="{% url 'list' %}" >Cancel</a>
+<!--O action="" fará com que entre no arquivo urls, e então no 
+	arquivo de views (deleteTask), e nesse momento irá entrar no if
+	e deletará a o objeto -->
+	<form method="POST" action="">
+		{% csrf_token %}
+		<input class='submit' type="submit" name="Confirm">
+	</form>
 
 </div>

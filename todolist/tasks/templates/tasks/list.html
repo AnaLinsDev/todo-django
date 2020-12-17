@@ -15,7 +15,7 @@
 	}
 
 	input::placeholder {
-	  color: #d3d3d3;
+	  color: #818080;
 	}
 
 	.submit{
@@ -81,7 +81,9 @@
 </style>
 
 <div class="center-column">
-
+<!--O action="/" fará com que entre no arquivo urls, e então no 
+	arquivo de views (index), e nesse momento irá entrar no if com 
+	o metodo igual a 'POST' e com o novo Task-->
 	<form method="POST" action="/">
 		{% csrf_token %}
 		<h3 class="todo">TO DO List</h3>
