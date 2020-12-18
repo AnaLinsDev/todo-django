@@ -1,8 +1,14 @@
 # todo-django
 
+- Nome: Ana Júlia Oliveira Lins
+- Email: ana.o.lins@gmail.com
+- Whats: (83) 98640-4550
+
 Projeto do tipo TODO List feito com o tutorial do YouTube ( Link: https://www.youtube.com/watch?v=4RWFvXDUmjo ).
 
 Projeto no Heroku:   https://analinsdev-todolist-django.herokuapp.com/
+
+Obs: a versão do heroku é compartilhada para todos, então peço para que não escrevam nada maldoso, pois será compartilhada com as outras pessoas...obrigada.
 
 Tela de Listagem: 
 ![image](https://user-images.githubusercontent.com/60307596/102511857-0d5e6a80-4068-11eb-8cc3-2bd676c13f6d.png)
