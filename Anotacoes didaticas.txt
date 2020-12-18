@@ -1,0 +1,51 @@
+As informações são sobre o Django + comandos no prompt
+
+O que são apps? 
+Componentes isolados que fazem algo especifico num projeto django. Um projeto pode ter vários apps, e um app pode estar em vários projetos. Exemplo: 'django.contrib.auth' -> cuida da autenticação do projeto
+
+
+O que são migrations?
+São arquivos python que são usados para gerenciar a estrutura do banco de dados
+python manage.py makemigrations -> cria migrations de acordo com o models
+python manage.py showmigrations -> ver status das migrations
+python manage.py migrate -> aplica as migrations
+
+python manage.py sqlmigrate blogapp 0001 -> visualizar o SQL criado
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
