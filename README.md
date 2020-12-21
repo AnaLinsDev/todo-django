@@ -21,7 +21,7 @@ Tela de Remoção:
 
 
 Tecnologias :
-- Arquitetura MTV
+- Arquitetura MVT
 - Django
 - SQLite
 - ORM
