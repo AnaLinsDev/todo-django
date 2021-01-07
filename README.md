@@ -1,8 +1,5 @@
 # todo-django
 
-- Nome: Ana Júlia Oliveira Lins
-- Email: ana.o.lins@gmail.com
-- Whats: (83) 98640-4550
 
 Projeto do tipo TODO List feito com o tutorial do YouTube ( Link: https://www.youtube.com/watch?v=4RWFvXDUmjo ).
 
